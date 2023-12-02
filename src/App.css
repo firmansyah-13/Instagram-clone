@@ -1,0 +1,22 @@
+.navbar {
+  background-color: rgb(71, 71, 71);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  line-height: 50px;
+  justify-content: flex-end;
+}
+.navbar-brand{
+  position: absolute;
+  left: 20px;
+}
+.nav-item{
+  margin-right: 60px;
+}
+@media screen  {
+  
+}
+
+
+
+
