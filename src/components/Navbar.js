@@ -1,12 +1,10 @@
 function Navbar(){
     return (
       <>
-      <nav className='navbar'>
-        <div className='navbar-brand'>Vici Code</div>
-        <div className='nav-item'>About</div>
-        <div className='nav-item'>Blog</div>
-        <div className='nav-item'>Project</div>
-        <div className='nav-item'>Contact</div>
+      <nav className="w-full h-12 bg-black flex items-center">
+        <div className="text-yellow-50 ml-4 mr-12 text-2xl font-leckerly">instagram</div>
+        <input type="search" name="" id="" className="h-4/6 w-3/6 rounded-lg " placeholder="Search"/>
+        <div className="notification"></div>
       </nav>
       </>
     )
